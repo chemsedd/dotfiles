@@ -1,0 +1,139 @@
+{
+  // Editor
+  "editor.fontSize": 18,
+  "editor.fontFamily": "Fira Code Medium, Consolas, 'Courier New', monospace",
+  "editor.autoClosingBrackets": "always",
+  "editor.fontLigatures": true,
+  "editor.renderWhitespace": "none",
+  "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
+  "editor.suggestSelection": "first",
+  // Ignore white space in DiffEditor
+  "diffEditor.ignoreTrimWhitespace": false,
+  // zoom
+  "window.zoomLevel": 0,
+  // Zen Mode
+  "zenMode.hideLineNumbers": false,
+  "zenMode.hideStatusBar": false,
+  // Workbench
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.mouseBackForwardToNavigate": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.settings.editor": "json",
+  "workbench.colorTheme": "Material Theme Darker High Contrast",
+  // Terminal
+  "terminal.integrated.fontFamily": "Fira Code",
+  "terminal.integrated.rendererType": "auto",
+  "terminal.explorerKind": "integrated",
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  // Python
+  "python.pythonPath": "E:\\Python3.8.5\\python.exe",
+  "python.jediEnabled": false,
+  "python.languageServer": "Microsoft",
+  "python.showStartPage": false,
+  "python.insidersChannel": "off",
+  // django
+  "[django-html]": {
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": true,
+      "strings": true
+    }
+  },
+  // for emmet in Django
+  "emmet.includeLanguages": {
+    "django-html": "html"
+  },
+  // Java
+  "java.completion.guessMethodArguments": true,
+  "java.format.comments.enabled": true,
+  "java.format.onType.enabled": true,
+  "java.semanticHighlighting.enabled": true,
+  // Maven
+  // "maven.executable.path": "e:\\apache-maven-3.6.3\\bin\\mvn.cmd",
+  // Code Runner
+  "code-runner.showExecutionMessage": false,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.runInTerminal": false,
+  // Markdown
+  "markdown.extension.syntax.plainTheme": false,
+  // Files tree exclusion
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  // JSON
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // LaTeX
+  "latex-workshop.view.pdf.viewer": "browser",
+  // Default Formatter
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  // Beaytify formatter
+  "beautify.language": {
+    "js": {
+      "type": ["javascript", "json", "jsonc"],
+      "filename": [".jshintrc", ".jsbeautifyrc"]
+    },
+    "css": ["css", "less", "scss"],
+    "html": ["htm", "html", "django-html"]
+  },
+  // File <==> Language
+  "files.associations": {
+    "**/templates/*.html": "django-html",
+    "**/templates/*": "django-txt",
+    "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+  },
+  "explorer.confirmDragAndDrop": false,
+  // Arduino
+  "arduino.additionalUrls": [
+    "http://arduino.esp8266.com/stable/package_esp8266com_index.json"
+  ],
+  "arduino.path": "E:\\\\Arduino",
+  "arduino.defaultBaudRate": 9600,
+  // Sync settings
+  "sync.gist": "19c1f813af804b44d3dc3b21672d491e",
+  // VIM
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  }
+}
