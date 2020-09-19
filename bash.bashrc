@@ -65,7 +65,9 @@ eval "$(dircolors -b /etc/DIR_COLORS)"
 shopt -q login_shell || . /etc/profile.d/git-prompt.sh
 
 # ls with colors
-alias ls='ls --color=auto'
+alias ls='ls -l --color=auto'
+# ls all with colors
+alias lsa='ls -al --color=auto'
 
 # cd to my workspace
 alias work='cd d:/works; ls -Al'
