@@ -7,6 +7,7 @@
   "editor.renderWhitespace": "none",
   "editor.wordWrap": "on",
   "editor.formatOnSave": true,
+  "editor.cursorBlinking": "phase",
   "editor.suggestSelection": "first",
   // Ignore white space in DiffEditor
   "diffEditor.ignoreTrimWhitespace": false,
@@ -16,16 +17,16 @@
   "zenMode.hideLineNumbers": false,
   "zenMode.hideStatusBar": false,
   // Workbench
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "vscode-great-icons",
   "workbench.editor.mouseBackForwardToNavigate": true,
   "workbench.startupEditor": "newUntitledFile",
   "workbench.settings.editor": "json",
-  "workbench.colorTheme": "Material Theme Darker High Contrast",
+  "workbench.colorTheme": "One Dark Pro",
   // Terminal
   "terminal.integrated.fontFamily": "Fira Code",
   "terminal.integrated.rendererType": "auto",
   "terminal.explorerKind": "integrated",
-  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "terminal.integrated.shell.windows": "E:\\Git\\bin\\bash.exe",
   // Python
   "python.pythonPath": "E:\\Python3.8.5\\python.exe",
   "python.jediEnabled": false,
@@ -135,5 +136,17 @@
   "vim.handleKeys": {
     "<C-a>": false,
     "<C-f>": false
-  }
+  },
+  "terminal.integrated.commandsToSkipShell": [
+    "psl.stepIn",
+    "psl.stepOut",
+    "psl.stepOver",
+    "psl.sendToHostTerminal"
+  ],
+  "C_Cpp.updateChannel": "Insiders",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "python.dataScience.interactiveWindowMode": "perFile",
+  "python.dataScience.askForKernelRestart": false
 }
