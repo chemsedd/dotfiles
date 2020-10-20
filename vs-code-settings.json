@@ -9,6 +9,8 @@
   "editor.formatOnSave": true,
   "editor.cursorBlinking": "phase",
   "editor.suggestSelection": "first",
+  "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${appName}",
+  "window.titleSeparator": " | ",
   // Ignore white space in DiffEditor
   "diffEditor.ignoreTrimWhitespace": false,
   // zoom
@@ -21,7 +23,7 @@
   "workbench.editor.mouseBackForwardToNavigate": true,
   "workbench.startupEditor": "newUntitledFile",
   "workbench.settings.editor": "json",
-  "workbench.colorTheme": "One Dark Pro",
+  "workbench.colorTheme": "Material Theme Ocean",
   // Terminal
   "terminal.integrated.fontFamily": "Fira Code",
   "terminal.integrated.rendererType": "auto",
